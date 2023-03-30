@@ -157,9 +157,3 @@ progress5.value = song5
         cntrl5.classList.remove('fa-play');
         cntrl5.classList.add('fa-pause');
       } 
-      function playing(){
-      while(song.play()){
-        song2.pause();
-      }
-      }
-      playing();
